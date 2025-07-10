@@ -8,7 +8,7 @@ Notes regarding the Local Area Network Topologies
 
 Star topology is a network setup in which each device is connected to a central node called a hub. The hub manages the data flow between the devices.
 
-<img title="star topology" alt="Star Topology" style="text-align: center" src="https://upload.wikimedia.org/wikipedia/commons/8/84/Star_Topology.png" width="400">
+<img title="star topology" alt="Star Topology" style="text-align:center" src="https://upload.wikimedia.org/wikipedia/commons/8/84/Star_Topology.png" width="400">
 
 
 ### Bus Topology
@@ -59,4 +59,6 @@ Ports:
 
 #### OSI (Open System Interconnaection Model)
 
-<img title="star topology" alt="Star Topology" style="text-align: center" src="https://tryhackme-images.s3.amazonaws.com/user-uploads/5de96d9ca744773ea7ef8c00/room-content/6d17472b87f8792dadde3bb06aa1fdaa.svg" width="400">
+<img title="star topology" alt="Star Topology" style="text-align:center" src="https://tryhackme-images.s3.amazonaws.com/user-uploads/5de96d9ca744773ea7ef8c00/room-content/6d17472b87f8792dadde3bb06aa1fdaa.svg" width="400">
+
+
