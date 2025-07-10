@@ -49,4 +49,10 @@ Routers are the traffic officers of Internet. Routers forward data packets betwe
 
 Ports: 
 
-    - WAN Port. Is the one 
+- LAN Ports. The ones used to connect the wired devices: computers, consoles.
+
+- WAN Port. Is the one router to the internet services providers.
+
+- Antenas. Crucial to distribute the WI-FI signal throughout your home or work space.
+
+- Memory processor. it handles all the data settings and traffic.
