@@ -116,6 +116,28 @@ While we don’t need to dive deeply into the specifics of routing protocols at 
 
 RIP (Routing Information Protocol): A distance-vector routing protocol that uses the number of hops as its primary metric for determining the best path.
 
+##### Transport (Layer 4)
+
+The Layer 4 of the OSI model plays the role of transmiting data across the netwrok. Data can follow two differents protocols:
+
+- TCP (*Transmission Control Protocol*)
+     This protocol reserves a constant connection between the two devices for the amount of time it takes for the data to be sent and received.
+     Also an error checking is incorporated into the protocoldesign. This ensures that chunks of datat sent to the next layer has been received and reassembled in the same order that they were originally sent
+
+# Advantages and Disadvantages of TCP
+
+| Advantages of TCP                                              | Disadvantages of TCP                                                                                     |
+|---------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|
+| Guarantees the accuracy of data.                              | Requires a reliable connection between the two devices. If one small chunk of data is not received, then the entire chunk of data cannot be used. |
+| Capable of synchronising two devices to prevent each other from being flooded with data. | A slow connection can bottleneck another device as the connection will be reserved on the receiving computer the whole time. |
+| Performs a lot more processes for reliability.                | TCP is significantly slower than UDP because more work has to be done by the devices using this protocol. |
+
+TCP can be used for, but not only:
+
+ - File Sharing
+ - Email
+ - Internet browsing
 
 
-
+- UDP(*User Datagram Protocol*)
+    
